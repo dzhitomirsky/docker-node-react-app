@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run init-db && npm run start-server",
+    "start-server": "nodemon --watch src src/index.js",
+    "init-db": "npx prisma migrate dev && npx prisma generate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.8.1",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "prisma": "^3.8.1",
+    "sequelize": "^6.14.0"
+  }
+}

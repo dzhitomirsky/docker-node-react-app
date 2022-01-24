@@ -1,0 +1,452 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'prisma',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData prisma
+8 silly fetchNamedPackageData prisma
+9 silly mapToRegistry name prisma
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'prisma',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'prisma',
+12 silly mapToRegistry   name: 'prisma',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/prisma
+14 verbose request uri https://registry.npmjs.org/prisma
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:49:42 AM
+17 verbose request id 73732f6f59d31a77
+18 verbose etag W/"8925bdfb653dc1f79e131dfce1459877"
+19 verbose lastModified Fri, 21 Jan 2022 21:00:05 GMT
+20 http request GET https://registry.npmjs.org/prisma
+21 http 304 https://registry.npmjs.org/prisma
+22 verbose headers { date: 'Sun, 23 Jan 2022 19:49:43 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '6d238c003e711c97-SJC',
+22 verbose headers   age: '249',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"8925bdfb653dc1f79e131dfce1459877"',
+22 verbose headers   'last-modified': 'Fri, 21 Jan 2022 21:00:05 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'x-amz-replication-status': 'PENDING',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 23 Jan 2022 19:49:43 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '6d238c003e711c97-SJC',
+23 silly get     age: '249',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"8925bdfb653dc1f79e131dfce1459877"',
+23 silly get     'last-modified': 'Fri, 21 Jan 2022 21:00:05 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'x-amz-replication-status': 'PENDING',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/prisma from cache
+25 verbose get saving prisma to /Users/danielzhitomirsky/.npm/registry.npmjs.org/prisma/.cache.json
+26 verbose correctMkdir /Users/danielzhitomirsky/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule prisma@3.8.1 checking installable status
+40 silly cache add args [ 'prisma', null ]
+41 verbose cache add spec prisma
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'prisma',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'prisma',
+42 silly cache add   name: 'prisma',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed prisma@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for prisma
+45 info addNameTag [ 'prisma', 'latest' ]
+46 silly mapToRegistry name prisma
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'prisma',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'prisma',
+49 silly mapToRegistry   name: 'prisma',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/prisma
+51 verbose addNameTag registry:https://registry.npmjs.org/prisma not in flight; fetching
+52 verbose get https://registry.npmjs.org/prisma not expired, no request
+53 silly addNameTag next cb for prisma with tag latest
+54 silly addNamed prisma@3.8.1
+55 verbose addNamed "3.8.1" is a plain semver version for prisma
+56 silly cache afterAdd prisma@3.8.1
+57 verbose afterAdd /Users/danielzhitomirsky/.npm/prisma/3.8.1/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/danielzhitomirsky/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/danielzhitomirsky/.npm/prisma/3.8.1/package/package.json written
+60 silly fetchNamedPackageData @prisma/engines
+61 silly mapToRegistry name @prisma/engines
+62 silly mapToRegistry scope (from package name) @prisma
+63 verbose mapToRegistry no registry URL found in name for scope @prisma
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: '@prisma/engines',
+66 silly mapToRegistry   scope: '@prisma',
+66 silly mapToRegistry   escapedName: '@prisma%2fengines',
+66 silly mapToRegistry   name: '@prisma/engines',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/@prisma%2fengines
+68 verbose request uri https://registry.npmjs.org/@prisma%2fengines
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 11:49:44 AM
+71 verbose etag W/"199b4d711e09a576945f703de834a4a1"
+72 verbose lastModified Fri, 21 Jan 2022 14:06:40 GMT
+73 http request GET https://registry.npmjs.org/@prisma%2fengines
+74 http 304 https://registry.npmjs.org/@prisma%2fengines
+75 verbose headers { date: 'Sun, 23 Jan 2022 19:49:45 GMT',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'cf-ray': '6d238c0f1b121c97-SJC',
+75 verbose headers   age: '236',
+75 verbose headers   'cache-control': 'public, max-age=300',
+75 verbose headers   etag: '"199b4d711e09a576945f703de834a4a1"',
+75 verbose headers   'last-modified': 'Fri, 21 Jan 2022 14:06:40 GMT',
+75 verbose headers   vary: 'Accept-Encoding',
+75 verbose headers   'cf-cache-status': 'HIT',
+75 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+75 verbose headers   'x-amz-replication-status': 'COMPLETED',
+75 verbose headers   server: 'cloudflare' }
+76 silly get cb [ 304,
+76 silly get   { date: 'Sun, 23 Jan 2022 19:49:45 GMT',
+76 silly get     connection: 'keep-alive',
+76 silly get     'cf-ray': '6d238c0f1b121c97-SJC',
+76 silly get     age: '236',
+76 silly get     'cache-control': 'public, max-age=300',
+76 silly get     etag: '"199b4d711e09a576945f703de834a4a1"',
+76 silly get     'last-modified': 'Fri, 21 Jan 2022 14:06:40 GMT',
+76 silly get     vary: 'Accept-Encoding',
+76 silly get     'cf-cache-status': 'HIT',
+76 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+76 silly get     'x-amz-replication-status': 'COMPLETED',
+76 silly get     server: 'cloudflare' } ]
+77 verbose etag https://registry.npmjs.org/@prisma%2fengines from cache
+78 verbose get saving @prisma/engines to /Users/danielzhitomirsky/.npm/registry.npmjs.org/_40prisma_252fengines/.cache.json
+79 verbose correctMkdir /Users/danielzhitomirsky/.npm correctMkdir not in flight; initializing
+80 silly resolveWithNewModule @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f checking installable status
+81 silly cache add args [ '@prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f',
+81 silly cache add   null ]
+82 verbose cache add spec @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+83 silly cache add parsed spec Result {
+83 silly cache add   raw: '@prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f',
+83 silly cache add   scope: '@prisma',
+83 silly cache add   escapedName: '@prisma%2fengines',
+83 silly cache add   name: '@prisma/engines',
+83 silly cache add   rawSpec: '3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f',
+83 silly cache add   spec: '3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f',
+83 silly cache add   type: 'version' }
+84 silly addNamed @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+85 verbose addNamed "3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f" is a plain semver version for @prisma/engines
+86 silly mapToRegistry name @prisma/engines
+87 silly mapToRegistry scope (from package name) @prisma
+88 verbose mapToRegistry no registry URL found in name for scope @prisma
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: '@prisma/engines',
+91 silly mapToRegistry   scope: '@prisma',
+91 silly mapToRegistry   escapedName: '@prisma%2fengines',
+91 silly mapToRegistry   name: '@prisma/engines',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri https://registry.npmjs.org/@prisma%2fengines
+93 verbose addNameVersion registry:https://registry.npmjs.org/@prisma%2fengines not in flight; fetching
+94 verbose get https://registry.npmjs.org/@prisma%2fengines not expired, no request
+95 silly cache afterAdd @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+96 verbose afterAdd /Users/danielzhitomirsky/.npm/@prisma/engines/3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f/package/package.json not in flight; writing
+97 verbose correctMkdir /Users/danielzhitomirsky/.npm correctMkdir not in flight; initializing
+98 verbose afterAdd /Users/danielzhitomirsky/.npm/@prisma/engines/3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f/package/package.json written
+99 silly loadAllDepsIntoIdealTree Finishing
+100 silly loadIdealTree Finishing
+101 silly currentTree server@1.0.0
+102 silly idealTree server@1.0.0
+102 silly idealTree ├── @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+102 silly idealTree └── prisma@3.8.1
+103 silly generateActionsToTake Starting
+104 silly install generateActionsToTake
+105 silly generateActionsToTake Finishing
+106 silly diffTrees action count 2
+107 silly diffTrees add @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+108 silly diffTrees add prisma@3.8.1
+109 silly decomposeActions action count 16
+110 silly decomposeActions fetch @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+111 silly decomposeActions extract @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+112 silly decomposeActions test @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+113 silly decomposeActions preinstall @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+114 silly decomposeActions build @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+115 silly decomposeActions install @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+116 silly decomposeActions postinstall @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+117 silly decomposeActions finalize @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+118 silly decomposeActions fetch prisma@3.8.1
+119 silly decomposeActions extract prisma@3.8.1
+120 silly decomposeActions test prisma@3.8.1
+121 silly decomposeActions preinstall prisma@3.8.1
+122 silly decomposeActions build prisma@3.8.1
+123 silly decomposeActions install prisma@3.8.1
+124 silly decomposeActions postinstall prisma@3.8.1
+125 silly decomposeActions finalize prisma@3.8.1
+126 silly runTopLevelLifecycles Starting
+127 silly executeActions Starting
+128 silly install executeActions
+129 silly doSerial global-install 0
+130 silly doParallel fetch 2
+131 verbose correctMkdir /Users/danielzhitomirsky/.npm/_locks correctMkdir not in flight; initializing
+132 verbose lock using /Users/danielzhitomirsky/.npm/_locks/staging-333f9288873a293b.lock for /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging
+133 silly doParallel extract 2
+134 silly extract @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+135 silly extract prisma@3.8.1
+136 verbose unbuild node_modules/.staging/@prisma/engines-a4b62184
+137 verbose unbuild node_modules/.staging/prisma-25d9aa07
+138 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184 is being purged from base /Users/danielzhitomirsky/work/Home/docker-node-react-service/server
+139 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184
+140 verbose tar unpack /Users/danielzhitomirsky/.npm/@prisma/engines/3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f/package.tgz
+141 verbose tar unpacking to /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184
+142 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184 is being purged
+143 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184
+144 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07 is being purged from base /Users/danielzhitomirsky/work/Home/docker-node-react-service/server
+145 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07
+146 silly gunzTarPerm modes [ '755', '644' ]
+147 verbose tar unpack /Users/danielzhitomirsky/.npm/prisma/3.8.1/package.tgz
+148 verbose tar unpacking to /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07
+149 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07 is being purged
+150 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07
+151 silly gunzTarPerm modes [ '755', '644' ]
+152 silly gunzTarPerm extractEntry dist/download.js
+153 silly gunzTarPerm extractEntry build/xdg-open
+154 silly gunzTarPerm extractEntry dist/index.js
+155 silly gunzTarPerm extractEntry build/public/index.css
+156 silly gunzTarPerm extractEntry build/public/pages/electron/databrowser.html
+157 silly gunzTarPerm extractEntry build/public/pages/http/databrowser.html
+158 silly gunzTarPerm extractEntry build/public/pages/electron/splash.html
+159 silly gunzTarPerm extractEntry build/public/pages/http/splash.html
+160 silly gunzTarPerm extractEntry prisma-client/scripts/backup-index-browser.js
+161 silly gunzTarPerm extractEntry prisma-client/scripts/backup-index.js
+162 silly gunzTarPerm extractEntry build/child.js
+163 silly gunzTarPerm extractEntry prisma-client/scripts/colors.js
+164 silly gunzTarPerm extractEntry build/public/electron/databrowser.js
+165 silly gunzTarPerm extractEntry build/public/http/databrowser.js
+166 silly gunzTarPerm extractEntry prisma-client/scripts/default-index-browser.js
+167 silly gunzTarPerm extractEntry prisma-client/scripts/default-index.js
+168 silly gunzTarPerm extractEntry prisma-client/scripts/get-packed-client.js
+169 silly gunzTarPerm extractEntry prisma-client/index-browser.js
+170 silly gunzTarPerm extractEntry prisma-client/runtime/index-browser.js
+171 silly gunzTarPerm extractEntry download/index.js
+172 silly gunzTarPerm extractEntry build/index.js
+173 silly gunzTarPerm extractEntry package.json
+174 silly gunzTarPerm extractEntry dist/download.js.map
+175 silly gunzTarPerm extractEntry dist/index.js.map
+176 silly gunzTarPerm extractEntry download/index.js.map
+177 silly gunzTarPerm extractEntry README.md
+178 silly gunzTarPerm extractEntry dist/download.d.ts
+179 silly gunzTarPerm extractEntry dist/index.d.ts
+180 silly gunzTarPerm extractEntry build/public/assets/index.js
+181 silly gunzTarPerm extractEntry install/index.js
+182 silly gunzTarPerm extractEntry preinstall/index.js
+183 silly gunzTarPerm extractEntry prisma-client/generator-build/index.js
+184 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184/node_modules is being purged
+185 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184/node_modules
+186 silly gunzTarPerm extractEntry prisma-client/index.js
+187 silly gunzTarPerm extractEntry prisma-client/runtime/index.js
+188 silly gunzTarPerm extractEntry scripts/install-entry.js
+189 silly gunzTarPerm extractEntry prisma-client/scripts/mock-fs.js
+190 silly gunzTarPerm extractEntry prisma-client/scripts/postinstall.js
+191 silly gunzTarPerm extractEntry scripts/preinstall-entry.js
+192 silly gunzTarPerm extractEntry prisma-client/runtime/proxy.js
+193 silly gunzTarPerm extractEntry build/public/electron/splash.js
+194 silly gunzTarPerm extractEntry build/public/http/splash.js
+195 silly gunzTarPerm extractEntry build/public/assets/vendor.js
+196 silly gunzTarPerm extractEntry package.json
+197 silly gunzTarPerm extractEntry prisma-client/README.md
+198 silly gunzTarPerm extractEntry README.md
+199 silly gunzTarPerm extractEntry prisma-client/runtime/esm/index-browser.mjs
+200 silly gunzTarPerm extractEntry build/esm/index.mjs
+201 silly gunzTarPerm extractEntry install/esm/index.mjs
+202 silly gunzTarPerm extractEntry preinstall/esm/index.mjs
+203 silly gunzTarPerm extractEntry prisma-client/generator-build/esm/index.mjs
+204 silly gunzTarPerm extractEntry prisma-client/runtime/esm/index.mjs
+205 silly gunzTarPerm extractEntry prisma-client/runtime/esm/proxy.mjs
+206 silly gunzTarPerm extractEntry build/public/icon-1024.png
+207 silly gunzTarPerm extractEntry build/public/assets/alert.60ea9f84.svg
+208 silly gunzTarPerm extractEntry build/public/assets/array.1a36c222.svg
+209 silly gunzTarPerm extractEntry build/public/assets/boolean.9188b434.svg
+210 silly gunzTarPerm extractEntry build/public/assets/chevron-down.24f76e3c.svg
+211 silly gunzTarPerm extractEntry build/public/assets/cross.c2610cf5.svg
+212 silly gunzTarPerm extractEntry build/public/assets/datetime.a3bf710a.svg
+213 silly gunzTarPerm extractEntry build/public/assets/download.8d34b65a.svg
+214 silly gunzTarPerm extractEntry build/public/assets/ellipsis.a8c5a34a.svg
+215 silly gunzTarPerm extractEntry build/public/assets/enum.7ec0b64c.svg
+216 silly gunzTarPerm extractEntry build/public/favicon.svg
+217 silly gunzTarPerm extractEntry build/public/assets/folder.d77b8eaf.svg
+218 silly gunzTarPerm extractEntry build/public/assets/hamburger.5fdadeac.svg
+219 silly gunzTarPerm extractEntry build/public/assets/logotype.a960b169.svg
+220 silly gunzTarPerm extractEntry build/public/assets/number.85ddf96b.svg
+221 silly gunzTarPerm extractEntry build/public/assets/object.0ba944a6.svg
+222 silly gunzTarPerm extractEntry build/public/assets/play.8811691e.svg
+223 silly gunzTarPerm extractEntry build/public/assets/plus.8fbf7ad3.svg
+224 silly gunzTarPerm extractEntry build/public/assets/refresh.d5448ccc.svg
+225 silly gunzTarPerm extractEntry build/public/assets/search.2ed766ce.svg
+226 silly gunzTarPerm extractEntry build/public/assets/settings.5ad25af2.svg
+227 silly gunzTarPerm extractEntry build/public/assets/string.ea615a24.svg
+228 silly gunzTarPerm extractEntry build/public/assets/tick-indeterminate.aec8a44d.svg
+229 silly gunzTarPerm extractEntry build/public/assets/tick.8cbb6a93.svg
+230 silly gunzTarPerm extractEntry prisma-client/scripts/backup-index.d.ts
+231 silly gunzTarPerm extractEntry prisma-client/scripts/default-index.d.ts
+232 silly gunzTarPerm extractEntry prisma-client/runtime/index-browser.d.ts
+233 silly gunzTarPerm extractEntry prisma-client/index.d.ts
+234 silly gunzTarPerm extractEntry prisma-client/runtime/index.d.ts
+235 silly gunzTarPerm extractEntry prisma-client/scripts/postinstall.d.ts
+236 silly gunzTarPerm extractEntry prisma-client/runtime/proxy.d.ts
+237 silly gunzTarPerm extractEntry build/public/assets/inter-all-400-normal.4c1f8a0d.woff
+238 silly gunzTarPerm extractEntry build/public/assets/inter-all-600-normal.d0a7c8a9.woff
+239 silly gunzTarPerm extractEntry build/public/assets/jetbrains-mono-all-400-normal.f86807b7.woff
+240 silly gunzTarPerm extractEntry build/public/assets/inter-cyrillic-400-normal.ac97a49e.woff2
+241 silly gunzTarPerm extractEntry build/public/assets/inter-cyrillic-600-normal.2c917f10.woff2
+242 silly gunzTarPerm extractEntry build/public/assets/inter-cyrillic-ext-400-normal.f21a6a97.woff2
+243 silly gunzTarPerm extractEntry build/public/assets/inter-cyrillic-ext-600-normal.bb31f197.woff2
+244 silly gunzTarPerm extractEntry build/public/assets/inter-greek-400-normal.e9163df8.woff2
+245 silly gunzTarPerm extractEntry build/public/assets/inter-greek-600-normal.e644d70f.woff2
+246 silly gunzTarPerm extractEntry build/public/assets/inter-greek-ext-400-normal.43addcc8.woff2
+247 silly gunzTarPerm extractEntry build/public/assets/inter-greek-ext-600-normal.7f437016.woff2
+248 silly gunzTarPerm extractEntry build/public/assets/inter-latin-400-normal.27ae72da.woff2
+249 silly gunzTarPerm extractEntry build/public/assets/inter-latin-600-normal.87d718a2.woff2
+250 silly gunzTarPerm extractEntry build/public/assets/inter-latin-ext-400-normal.5b02c69a.woff2
+251 silly gunzTarPerm extractEntry build/public/assets/inter-latin-ext-600-normal.88feb9e4.woff2
+252 silly gunzTarPerm extractEntry build/public/assets/inter-vietnamese-600-normal.8185dacd.woff2
+253 silly gunzTarPerm extractEntry build/public/assets/jetbrains-mono-cyrillic-400-normal.1ae57fe2.woff2
+254 silly gunzTarPerm extractEntry build/public/assets/jetbrains-mono-latin-400-normal.80a5dc9e.woff2
+255 silly gunzTarPerm extractEntry build/public/assets/jetbrains-mono-latin-ext-400-normal.6315c53c.woff2
+256 silly gunzTarPerm extractEntry LICENSE
+257 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07/node_modules is being purged
+258 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07/node_modules
+259 silly doParallel preinstall 2
+260 silly preinstall @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184
+261 info lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~preinstall: @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+262 silly preinstall prisma@3.8.1 /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07
+263 info lifecycle prisma@3.8.1~preinstall: prisma@3.8.1
+264 silly lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~preinstall: no script for preinstall, continuing
+265 verbose lifecycle prisma@3.8.1~preinstall: unsafe-perm in lifecycle true
+266 verbose lifecycle prisma@3.8.1~preinstall: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07/node_modules/.bin:/Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin:/Users/danielzhitomirsky/.sdkman/candidates/scala/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/sbt/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/maven/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/kotlin/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/java/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/groovy/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/grails/current/bin:/Users/danielzhitomirsky/bin:/usr/local/bin:/Users/danielzhitomirsky/Library/Python/2.7/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Library/Apple/usr/bin
+267 verbose lifecycle prisma@3.8.1~preinstall: CWD: /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07
+268 silly lifecycle prisma@3.8.1~preinstall: Args: [ '-c', 'node scripts/preinstall-entry.js' ]
+269 silly lifecycle prisma@3.8.1~preinstall: Returned: code: 0  signal: null
+270 silly doReverseSerial remove 0
+271 silly doSerial move 0
+272 silly doSerial finalize 2
+273 silly finalize /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/@prisma/engines
+274 silly finalize /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/prisma
+275 silly doSerial build 2
+276 silly build @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+277 info linkStuff @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+278 silly linkStuff @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f has /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules as its parent node_modules
+279 verbose linkBins @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+280 verbose linkMans @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+281 silly build prisma@3.8.1
+282 info linkStuff prisma@3.8.1
+283 silly linkStuff prisma@3.8.1 has /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules as its parent node_modules
+284 verbose linkBins prisma@3.8.1
+285 verbose link bins [ { prisma: 'build/index.js', prisma2: 'build/index.js' },
+285 verbose link bins   '/Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin',
+285 verbose link bins   false ]
+286 verbose linkMans prisma@3.8.1
+287 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin/prisma2 is being purged
+288 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin/prisma2
+289 silly gentlyRm /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin/prisma is being purged
+290 verbose gentlyRm don't care about contents; nuking /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin/prisma
+291 silly doSerial global-link 0
+292 silly doParallel update-linked 0
+293 silly doSerial install 2
+294 silly install @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184
+295 info lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~install: @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+296 silly lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~install: no script for install, continuing
+297 silly install prisma@3.8.1 /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/prisma-25d9aa07
+298 info lifecycle prisma@3.8.1~install: prisma@3.8.1
+299 verbose lifecycle prisma@3.8.1~install: unsafe-perm in lifecycle true
+300 verbose lifecycle prisma@3.8.1~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/prisma/node_modules/.bin:/Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin:/Users/danielzhitomirsky/.sdkman/candidates/scala/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/sbt/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/maven/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/kotlin/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/java/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/groovy/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/grails/current/bin:/Users/danielzhitomirsky/bin:/usr/local/bin:/Users/danielzhitomirsky/Library/Python/2.7/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Library/Apple/usr/bin
+301 verbose lifecycle prisma@3.8.1~install: CWD: /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/prisma
+302 silly lifecycle prisma@3.8.1~install: Args: [ '-c', 'node scripts/install-entry.js' ]
+303 silly lifecycle prisma@3.8.1~install: Returned: code: 0  signal: null
+304 silly doSerial postinstall 2
+305 silly postinstall @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging/@prisma/engines-a4b62184
+306 info lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~postinstall: @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+307 verbose lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~postinstall: unsafe-perm in lifecycle true
+308 verbose lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~postinstall: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/@prisma/engines/node_modules/.bin:/Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.bin:/Users/danielzhitomirsky/.sdkman/candidates/scala/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/sbt/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/maven/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/kotlin/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/java/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/groovy/current/bin:/Users/danielzhitomirsky/.sdkman/candidates/grails/current/bin:/Users/danielzhitomirsky/bin:/usr/local/bin:/Users/danielzhitomirsky/Library/Python/2.7/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Library/Apple/usr/bin
+309 verbose lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~postinstall: CWD: /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/@prisma/engines
+310 silly lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~postinstall: Args: [ '-c', 'node download/index.js' ]
+311 silly lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~postinstall: Returned: code: 1  signal: null
+312 info lifecycle @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f~postinstall: Failed to exec postinstall script
+313 verbose unlock done using /Users/danielzhitomirsky/.npm/_locks/staging-333f9288873a293b.lock for /Users/danielzhitomirsky/work/Home/docker-node-react-service/server/node_modules/.staging
+314 silly rollbackFailedOptional Starting
+315 silly rollbackFailedOptional Finishing
+316 silly runTopLevelLifecycles Finishing
+317 silly install printInstalled
+318 warn server@1.0.0 No description
+319 verbose If you need help, you may report this error at:
+319 verbose     <https://github.com/npm/npm/issues>
+320 warn server@1.0.0 No repository field.
+321 verbose If you need help, you may report this error at:
+321 verbose     <https://github.com/npm/npm/issues>
+322 verbose stack Error: @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f postinstall: `node download/index.js`
+322 verbose stack Exit status 1
+322 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+322 verbose stack     at emitTwo (events.js:106:13)
+322 verbose stack     at EventEmitter.emit (events.js:191:7)
+322 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+322 verbose stack     at emitTwo (events.js:106:13)
+322 verbose stack     at ChildProcess.emit (events.js:191:7)
+322 verbose stack     at maybeClose (internal/child_process.js:877:16)
+322 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+323 verbose pkgid @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+324 verbose cwd /Users/danielzhitomirsky/work/Home/docker-node-react-service/server
+325 error Darwin 20.5.0
+326 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "prisma" "--save"
+327 error node v6.9.1
+328 error npm  v3.10.8
+329 error code ELIFECYCLE
+330 error @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f postinstall: `node download/index.js`
+330 error Exit status 1
+331 error Failed at the @prisma/engines@3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f postinstall script 'node download/index.js'.
+331 error Make sure you have the latest version of node.js and npm installed.
+331 error If you do, this is most likely a problem with the @prisma/engines package,
+331 error not with npm itself.
+331 error Tell the author that this fails on your system:
+331 error     node download/index.js
+331 error You can get information on how to open an issue for this project with:
+331 error     npm bugs @prisma/engines
+331 error Or if that isn't available, you can get their info via:
+331 error     npm owner ls @prisma/engines
+331 error There is likely additional logging output above.
+332 verbose exit [ 1, true ]

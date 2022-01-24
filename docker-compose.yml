@@ -1,0 +1,69 @@
+version: '3.1'
+services:
+  backend:
+    image: backend
+    environment:
+      APPLICATION_NAME: 'backend'
+      NODE_ENV: "development"
+    depends_on:
+      - mysql
+    volumes:
+      - ./server:/server
+      - /server/node_modules
+    labels:
+      SERVICE_NAME: 'backend'
+    expose:
+      - 3001
+    ports:
+      - 3001
+  
+  frontend:
+    image: frontend
+    environment:
+      APPLICATION_NAME: 'frontend'
+      NODE_ENV: 'development'
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/frontend
+      - /client/node_modules
+    labels:
+      SERVICE_NAME: 'frontend'
+    expose:
+      - 3000
+    ports:
+      - 3000
+
+  mysql:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: dev_db
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    labels:
+      SERVICE_NAME: 'mysql'
+    ports:
+      - 3306:3306
+    command: --default-authentication-plugin=mysql_native_password
+  
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    labels:
+      SERVICE_NAME: 'adminer'
+    depends_on:
+      - mysql
+
+  nginx: 
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
+    depends_on:
+      - frontend
+      - backend
